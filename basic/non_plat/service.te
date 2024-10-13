@@ -1,0 +1,2 @@
+# PQ
+type mtk_hal_pq_service, hal_service_type, protected_service, service_manager_type;
