@@ -574,6 +574,7 @@
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/dpm.*                            u:object_r:dpm_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/mcf_ota(_[ab])?                  u:object_r:mcf_ota_block_device:s0
 /dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/vcp(_[ab])?                      u:object_r:vcp_device:s0
+/dev/block/platform/mtk-\b(msdc|ufs)\b\.0/[0-9]+\.\b(msdc0|ufs0)\b/by-name/modem(_[ab])?		    u:object_r:md_block_device:s0
 # Key manager
 /dev/block/platform/soc/[0-9]+\.mmc/by-name/kb  u:object_r:kb_block_device:s0
 /dev/block/platform/soc/[0-9]+\.mmc/by-name/dkb u:object_r:dkb_block_device:s0
@@ -634,6 +635,7 @@
 /dev/block/by-name/gpueb(_[ab])?                    u:object_r:gpueb_device:s0
 /dev/block/by-name/vcp(_[ab])?                      u:object_r:vcp_device:s0
 /dev/block/by-name/mvpu_algo(_[ab])?                      u:object_r:mvpu_algo_device:s0
+/dev/block/by-name/modem(_[ab])?                    u:object_r:md_block_device:s0
 # W19.23 Q new feature - Userdata Checkpoint
 /dev/block/by-name/md_udc u:object_r:metadata_block_device:s0
 
