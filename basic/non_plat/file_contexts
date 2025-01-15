@@ -934,6 +934,8 @@
 /vendor/lib(64)?/libcmdl_ndk.mtk.vndk\.so       u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libarmnn_ndk.mtk.vndk\.so      u:object_r:same_process_hal_file:s0
 
+/vendor/etc/mali_platform.config u:object_r:same_process_hal_file:s0
+
 # Date: 2018/07/06
 # Purpose for same-process HAL files and their dependencies: libGLES_mali.so need libm4u.so on mali GPU.
 /vendor/lib(64)?/libm4u\.so u:object_r:same_process_hal_file:s0
@@ -1021,3 +1023,6 @@
 
 # Memtrack
 /(vendor|system/vendor)/bin/hw/android\.hardware\.memtrack-service\.mediatek-mali         u:object_r:hal_memtrack_default_exec:s0
+
+# ARM Mali
+/vendor/bin/hw/mt[0-9]+[a-z]*/arm\.mali\.platform-service\.mediatek\.mt[0-9]+[a-z]*       u:object_r:mtk_hal_arm_mali_platform_exec:s0

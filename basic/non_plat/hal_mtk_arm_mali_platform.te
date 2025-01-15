@@ -1,0 +1,5 @@
+binder_call(hal_mtk_mali_platform_client, hal_mtk_mali_platform_server)
+binder_call(hal_mtk_mali_platform_server, hal_mtk_mali_platform_client)
+
+hal_attribute_service(hal_mtk_mali_platform, mtk_hal_arm_mali_platform_service)
+binder_call(hal_mtk_mali_platform_server, servicemanager)

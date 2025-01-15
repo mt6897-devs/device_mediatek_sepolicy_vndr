@@ -1,2 +1,5 @@
+# ARM Mali
+arm.mali.platform.ICompression/default 		u:object_r:mtk_hal_arm_mali_platform_service:s0
+
 # PQ
 vendor.mediatek.hardware.pq_aidl.IPictureQuality_AIDL/default u:object_r:mtk_hal_pq_service:s0

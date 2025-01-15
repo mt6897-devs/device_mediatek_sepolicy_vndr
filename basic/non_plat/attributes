@@ -1,0 +1,3 @@
+attribute hal_mtk_mali_platform;
+attribute hal_mtk_mali_platform_client;
+attribute hal_mtk_mali_platform_server;

@@ -1,2 +1,5 @@
+# ARM Mali
+type mtk_hal_arm_mali_platform_service, hal_service_type, service_manager_type;
+
 # PQ
 type mtk_hal_pq_service, hal_service_type, protected_service, service_manager_type;
