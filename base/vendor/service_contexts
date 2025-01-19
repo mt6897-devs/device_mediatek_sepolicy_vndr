@@ -27,3 +27,6 @@ vendor.mediatek.hardware.apuware.apusys.INeuronApusys/default u:object_r:hal_neu
 
 #aovservice aidl
 vendor.mediatek.hardware.camera.aovservice.IAovService/default u:object_r:hal_camera_service:s0
+
+# GNSS
+vendor.mediatek.hardware.gnss.IMtkGnss/default u:object_r:hal_gnss_service:s0
