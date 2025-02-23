@@ -55,3 +55,6 @@ mapper/mediatek u:object_r:hal_graphics_mapper_service:s0
 
 # Arm Mali
 arm.mali.platform.ICompression/default u:object_r:mtk_hal_arm_mali_platform_service:s0
+
+# Engineering Mode
+vendor.mediatek.hardware.engineermode.IEmds/default   u:object_r:mtk_hal_em_service:s0
