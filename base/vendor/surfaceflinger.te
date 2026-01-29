@@ -199,3 +199,6 @@ hal_client_domain(surfaceflinger, hal_neuralnetworks)
 
 # Purpose: Netflix Widevine
 allow surfaceflinger teei_client_device:chr_file rw_file_perms;
+
+# Allow to find mtk_hal_arm_mali_platform_service
+allow surfaceflinger mtk_hal_arm_mali_platform_service:service_manager find;

@@ -427,3 +427,6 @@ allow system_server sysfs_power_supply:file r_file_perms;
 
 # Allow to perform binder IPC to mtk_hal_mmlpq.
 binder_call(system_server, mtk_hal_mmlpq)
+
+# Allow to find mtk_hal_arm_mali_platform_service
+allow system_server mtk_hal_arm_mali_platform_service:service_manager find;

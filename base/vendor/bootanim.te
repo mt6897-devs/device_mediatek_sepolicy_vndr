@@ -52,3 +52,6 @@ allow bootanim proc_secmem:file r_file_perms;
 allow bootanim dri_device:chr_file rw_file_perms;
 
 allow bootanim debugfs_ion:dir search;
+
+# Allow to find mtk_hal_arm_mali_platform_service
+allow bootanim mtk_hal_arm_mali_platform_service:service_manager find;
